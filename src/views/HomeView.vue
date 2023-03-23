@@ -1,6 +1,8 @@
 <template>
   <div class="picture">
-    <img src="../../image/a.jpeg" alt="">
+    <transition name="slide">
+      <img :key="currentImage" :src="currentImage" alt="image">
+    </transition>
   </div>  
   <div class="text_one">Boost your performance, break the record and get the rewards !</div>
   <div class="type_cube">
@@ -72,7 +74,7 @@
         <div>
           Stay in touch !
         </div>
-        <input type="email">
+        <input class="email" type="email" placeholder="email">
       </div>
   </div>
 </template>
@@ -85,6 +87,7 @@
     align-items: center;
   }
 }
+
 .brand_container{
   display: flex;
   gap: 45px; 
@@ -98,6 +101,8 @@
 .brand_diff {
   width: 160px;
   height: 80px;
+  display: flex;
+  align-self: center;
 
 }
 .bottom_logo {
@@ -168,4 +173,57 @@
   height: 227px;
   display: flex;
 }
+.email {
+  border: solid 2px;
+  padding-left: 10px;
+  margin-right: 20px;
+}
+.picture {
+  position: relative;
+}
+.slide-enter-active, .slide-leave-active {
+  animation: slide-in 0.5s ease;
+}
+.slide-enter, .slide-leave-to {
+  transform: translateX(100%);
+  position: absolute;
+}
+@keyframes slide-in {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
 </style>
+
+
+<script>
+  export default {
+    data() {
+      return {
+        images: [
+          "../../image/a.jpeg",
+          "../../image/b.jpeg",
+          "../../image/c.jpeg"
+
+        ],
+        currentImageIndex: 0
+      }
+    },
+    mounted() {
+      setInterval(this.changeImage, 5000);
+    },
+    methods: {
+      changeImage() {
+        this.currentImageIndex = (this.currentImageIndex + 1) % this.images.length;
+      }
+    },
+    computed: {
+      currentImage() {
+        return this.images[this.currentImageIndex];
+      }
+    }
+  }
+</script>

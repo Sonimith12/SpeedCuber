@@ -8,19 +8,19 @@
     <div class="text_one">Boost your performance, break the record and get the rewards!</div>
     <div class="type_cube">
       <div class="type">
-        <img src="../../image/image 47.png" alt="">
+        <img src="../../image/image_47.png" alt="">
       </div>
       <div class="type">
-        <img src="../../image/image 47 (1).png" alt="">
+        <img src="../../image/image_47_(1).png" alt="">
       </div>
       <div class="type">
-        <img src="../../image/image 47 (2).png" alt="">
+        <img src="../../image/image_47_(2).png" alt="">
       </div>
       <div class="type">
-        <img src="../../image/image 26.png" alt="">
+        <img src="../../image/image_26.png" alt="">
       </div>
       <div class="type">
-        <img src="../../image/image 47 (3).png" alt="">
+        <img src="../../image/image_47_(3).png" alt="">
       </div>
     </div>
     <div class="text_two">Best Selling Product</div>

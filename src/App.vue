@@ -2,14 +2,14 @@
   <div class="wrapper">
     <nav class="p-5">
       <div class="logo">
-        <img src="../../image/logo.png" alt="">
+        <img src="../image/logo.png" alt="">
       </div>
       <div class="nav flex gap-x-3">
 
         <div class="search-container">
           <input type="text" placeholder="Search..." name="search">
           <button type="submit" class="search-button">
-            <img src="../../image/search.png" alt="Search Icon" class="search-icon">
+            <img src="../image/search.png" alt="Search Icon" class="search-icon">
           </button>
         </div>
         

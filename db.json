@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "name": "bopha",
+      "email": "bopha@gmail.com",
+      "password": "6666",
+      "id": 1
+    },
+    {
+      "name": "Sonimith",
+      "email": "Sonimith@gmail.com",
+      "password": "123456",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "product_name": "GAN360",
+      "price": "$50",
+      "description": "latest version",
+      "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1529690074-411y3mznHdL.jpg?crop=1xw:1xh;center,top&resize=980:*",
+      "id": 1
+    },
+    {
+      "product_name": "ALEZ",
+      "price": "$50",
+      "description": "latest version",
+      "image": "https://cf.shopee.ph/file/41f693770b7fe981159392ff734e8fd9",
+      "id": 2
+    },
+    {
+      "product_name": "XAM",
+      "price": "$50",
+      "description": "latest version",
+      "image": "https://www.speedcube.com.au/cdn/shop/products/Yulong3x3SL_7b551868-8acd-4d34-acb2-4869b6488575.jpg?v=1621491325",
+      "id": 3
+    },
+    {
+      "product_name": "The Valker",
+      "price": "$50",
+      "description": "latest version",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZNhgVbKcMnNQrxDZZIjfLSAhTXKJLwlRPxuSc0bGiIj6qDbl-o00p-4aKcqeLC7cFw0U&usqp=CAU",
+      "id": 4
+    }
+    
+  ]
+}

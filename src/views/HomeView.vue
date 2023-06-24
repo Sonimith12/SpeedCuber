@@ -204,7 +204,7 @@
     data() {
       return {
         images: [
-          "../../image/a.jpeg",
+          "https://cdn.thewirecutter.com/wp-content/media/2023/01/rubikscube-2048px-08418.jpg",
           "../../image/b.jpeg",
           "../../image/c.jpeg"
 

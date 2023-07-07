@@ -1,0 +1,1 @@
+import{_ as t,I as n,r as s,o as a,c,a as _,F as r,b as e}from"./index-208bfe49.js";const p={components:{Index:n}},d=e("div",{class:"about"},[e("h1",null,"This is an about page")],-1);function l(u,i,m,x,f,b){const o=s("Index");return a(),c(r,null,[_(o),d],64)}const v=t(p,[["render",l]]);export{v as default};

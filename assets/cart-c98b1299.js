@@ -1,0 +1,1 @@
+import{_ as s,I as a,d as c,r as e,o as r,c as _,a as o,F as p,b as d}from"./index-208bfe49.js";const l={components:{Index:a,FooterView:c}},i=d("p",{class:"red_text"},"Your Cart",-1);function m(u,x,f,F,V,I){const t=e("Index"),n=e("FooterView");return r(),_(p,null,[o(t),i,o(n)],64)}const v=s(l,[["render",m]]);export{v as default};
